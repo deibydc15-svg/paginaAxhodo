@@ -1,0 +1,275 @@
+@font-face {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* paleta de colores */
+    --color-primario: #ffffff;
+    --color-segundario: #000000;
+    --color-terseario: #93908b10;
+    --color-cuarto: #140d0285;
+
+
+    /* tipografias */
+    /* --fuente-titulos: "Bevan", serif;
+    --fuente-parrafo: "Amaranth", sans-serif; */
+
+    /* tamaños de letra */
+    --texto-base: 60px;
+    --texto-segunda: 37.08px;
+    --texto-tercera: 22.92px;
+    --texto-cuarto: 14.17px;
+
+    /* peso de la fuente */
+    --peso-regular: 400;
+    --peso-bold: 600;
+    --peso-segunda: 300;
+    --peso-tercera: 50;
+
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+header div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+aside div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+div ul li a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+    transition: color 0.3s ease;
+}
+
+div ul li a:hover {
+    color: #9ae19d !important;
+}
+
+div div h2 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+    letter-spacing: 1px;
+}
+
+div div p {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: 500;
+}
+
+div div button {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div h3 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+    letter-spacing: 2px;
+}
+
+div aside div label span {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: 500;
+}
+
+footer div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+footer div div p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-cuarto);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+.card-image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.card-image-container img {
+    width: 100%;
+    height: 16rem;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.card-image-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card-image-container:hover::before {
+    opacity: 0.5;
+}
+
+.card-image-container:hover img {
+    transform: scale(1.05);
+}
+
+/* ========== HAMBURGER MENU STYLES ========== */
+
+/* Hamburger button */
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1002;
+}
+
+.hamburger span {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transform-origin: center;
+}
+
+/* Hamburger animation when active */
+.hamburger.active span:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Sidebar responsive behavior */
+@media (max-width: 768px) {
+    #sidebar {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        height: 100vh;
+        z-index: 1000;
+        transition: left 0.3s ease-in-out;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+}
+
+/* Desktop - sidebar always visible */
+@media (min-width: 769px) {
+    #sidebar {
+        position: relative;
+        left: 0;
+    }
+
+    /* Hide hamburger button on desktop */
+    .hamburger {
+        display: none;
+    }
+
+    /* Hide overlay on desktop */
+    .overlay {
+        display: none;
+    }
+}

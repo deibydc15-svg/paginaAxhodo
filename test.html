@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axhodo</title>
+    <link rel="icon" type="image/png" href="img/logo1.png" sizes="32x32">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="tailwind.config.js">
+</head>
+
+<body>
+    <header class="pt-[100px]">
+        <!-- navegador -->
+        <nav class="bg-neutral-primary absolute  w-full z-50 top-0 start-0  border-default">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="img/logo.png" class="" alt="">
+                    <!-- <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Axhodo</span> -->
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="login.html"
+                        class="text-[#02153D] bg-[#D8DBE2] hover:bg-brand-strong rounded-[40px] focus:ring-4 focus:ring-[#D8DBE2] shadow-xs font-medium leading-5 text-sm px-[38px] py-[13px] focus:outline-none">Inscríbete</a>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-base md:hidden bg-[#0197af] hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                d="M5 7h14M5 12h14M5 17h14" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center   hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0 gap-4 mt-4 font-medium border border-default rounded-base bg-[#0197af] md:bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:">
+                        <li>
+                            <a href="precios.html"
+                                class="block py-2 px-3 text-heading bg-neutral rounded-sm md:bg-transparent md:text-fg-brand  md:p-0"
+                                aria-current="page"> Planes
+                                y Precios</a>
+                        </li>
+                        <li>
+                            <a href="orientacion.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Orientación</a>
+                        </li>
+                        <li>
+                            <a href="dondeestudiar.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Dónde
+                                Estudiar</a>
+                        </li>
+                        <li>
+                            <a href="noticias.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Planes y Precios -->
+        <div class="bg-[#9AE19D] w-full h-[110px]">
+            <div
+                class=" text-white max-w-screen-xl flex h-full flex-wrap items-center  mx-auto p-4 font-extrabold gap-2 ">
+                <h1 class="text-[#02153d]">Orientación</h1>
+            </div>
+
+        </div>
+        <div class="flex justify-center mt-20 text-center">
+            <h1>Test Vocacional</h1>
+        </div>
+    </header>
+    <main>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute md:left-[350px] left-32 top-5
+              h-[150px] w-[67%] 
+              bg-[#0197AF] rounded-[20px_0px_0px_120px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-16">
+                    <span class="text-3xl font-bold">1.</span>
+
+                    <p class="flex-1 flex justify-center uppercase text-sm text-black md:text-white">
+                        <span class="text-left">
+                            Las personas que me conocen dicen que soy creativo y que, produzco ideas originales y
+                            divertidas.
+                        </span>
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute -left-1 md:-left-28  top-5
+              h-[125px] w-[86%]
+              bg-[#9AE19D] rounded-[0px_20px_120px_0px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-center gap-5 md:gap-0">
+                    <span>2.</span>
+
+                    <p class="flex-1 flex justify-center uppercase text-sm text-black md:text-white">
+                        <span class="text-left">
+                            Puedo inferir posibles desarrollos <br> y consecuencias futuras, a partir <br> de la
+                            observación de una situación.
+                        </span>
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute md:left-[350px] left-32 top-5
+              h-[125px] w-[67%] 
+              bg-[#0197AF] rounded-[20px_0px_0px_120px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-16">
+                    <span class="text-3xl font-bold">3.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Me resulta más fácil expresar mis pensamientos, sensaciones y emociones con palabras.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute -left-1 md:-left-28  top-5
+              h-[125px] w-[86%]
+              bg-[#9AE19D] rounded-[0px_20px_120px_0px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-12">
+                    <span class="text-3xl font-bold">4.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Tengo un pensamiento organizado, tiendo a armar esquemas, establecer un orden y sistematizar.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute md:left-[350px] left-32 top-5
+              h-[125px] w-[67%] 
+              bg-[#0197AF] rounded-[20px_0px_0px_120px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-16">
+                    <span class="text-3xl font-bold">5.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Siempre me intereso por superar mis habilidades físicas y jugar en equipo. Siento placer
+                        realizando deportes.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute -left-1 md:-left-28  top-5
+              h-[125px] w-[86%]
+              bg-[#9AE19D] rounded-[0px_20px_120px_0px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-4">
+                    <span class="text-3xl font-bold">6.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Soy capaz de captar lo que otro siente y ayudarlo a sentirse mejor.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute md:left-[350px] left-32 top-5
+              h-[125px] w-[67%] 
+              bg-[#0197AF] rounded-[20px_0px_0px_120px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-16">
+                    <span class="text-3xl font-bold">7.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Tengo buena memoria y no me cuesta estudiar y retener fórmulas y palabras técnicas.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute -left-1 md:-left-28 top-5
+              h-[125px] w-[86%]
+              bg-[#9AE19D] rounded-[0px_20px_120px_0px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-4">
+                    <span class="text-3xl font-bold">8.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Me salta a la vista rápidamente cuando algo no concuerda con el entorno y me resulta difícil no
+                        tenerlo en cuenta.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute md:left-[350px] left-32 top-5
+              h-[125px] w-[67%] 
+              bg-[#0197AF] rounded-[20px_0px_0px_120px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-16">
+                    <span class="text-3xl font-bold">9.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Tiendo a cuestionar todo y convenzo fácilmente a otras personas sobre la validez de mis
+                        argumentos.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="relative flex w-full justify-center items-center overflow-visible max-w-screen-xl mx-auto my-10">
+
+            <!-- FRANJA DE COLOR (SALE DEL CUBO) -->
+            <div class="absolute -left-1 md:-left-28 top-5
+              h-[125px] w-[86%]
+              bg-[#9AE19D] rounded-[0px_20px_120px_0px]
+              z-0">
+            </div>
+
+            <!-- TARJETA -->
+            <div
+                class="relative z-10 bg-[#ffffff83] m-5 w-full md:w-[719px] h-full md:h-[210px] bg-white-100  backdrop-filter backdrop-blur-sm bg-opacity-10 border-gray-100 shadow-xl/20 rounded-xl shadow-lg p-8">
+
+                <div class="flex items-start gap-5  md:gap-4">
+                    <span class="text-3xl font-bold">10.</span>
+
+                    <p class="font-semibold uppercase text-sm text-black md:text-white">
+                        Me estimula más la etapa de análisis de las cosas que su ejecución.
+                    </p>
+                </div>
+
+                <div class="flex gap-10 mt-6 justify-center">
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> Sí
+                    </label>
+                    <label class="flex items-center gap-2 font-bold">
+                        <input type="checkbox" class="w-10 h-10 rounded"> No
+                    </label>
+                </div>
+
+            </div>
+        </div>
+        <div class="flex justify-center mb-10">
+            <a href="login.html"
+                class="text-white md:w-[356px] md:h-[113px] bg-[#9ae19d] flex justify-between items-center
+                   hover:bg-brand-strong rounded-[20px] focus:ring-4  focus:ring-[#D8DBE2] shadow-xs font-medium leading-5 text-sm px-[38px] py-[13px] focus:outline-none">
+                Ver <br>
+                resultados
+                <img src="img/flecha.png" class="w-16 h-16" />
+            </a>
+        </div>
+    </main>
+    <footer class="flex">
+        <div
+            class=" max-w-screen-2xl flex  items-center  mx-auto  md:items-end flex-col md:flex-row h-[423px] mt-16 w-full">
+            <div class="bg-[#0197AF] text-white md:h-[81%] w-full md:w-[31%] text-center md:text-left">
+                <h1 class="md:ml-28 mt-12">Información de contacto</h1>
+                <p class="md:ml-28 mt-12">Teléfono: (601) 6087809 Ext.: 1170 <br>WhatsApp:(+57) 313322222
+                    <br>axhodo@atención.edu.co
+                </p>
+                <p class="md:ml-28 mt-12 mb-8">Horario de atención <br>Lunes a jueves: 8:00 a.m. a 5 p.m. <br>Sábado:
+                    8:30
+                    a.m.
+                    a 12:30 p.m.</p>
+            </div>
+            <div
+                class="bg-[#9AE19D] h-full w-full rounded-t-xl md:w-[38%] md:border-b-0 border-white flex flex-col justify-center items-center p-5 gap-4 border-4">
+                <a href="index.html">
+                    <img class="w-[190px]" src="img/logof1.png" alt="">
+                </a>
+                <div class="flex gap-3">
+                    <img src="img/Instagram WC.png" alt="">
+                    <img src="img/YouTube WC.png" alt="">
+                    <img src="img/Facebook WC.png" alt="">
+                    <img src="img/X WC.png" alt="">
+                </div>
+            </div>
+            <div class="bg-[#0197AF] text-white text-center md:text-end md:h-[81%] w-full md:w-[31%]">
+                <h1 class="md:mr-28 mt-12">Información legal</h1>
+                <p class="md:mr-28 mt-8">Términos y Condiciones</p>
+                <p class="md:mr-28 mt-8">Aviso de Privacidad</p>
+                <p class="md:mr-28 mt-8">Transparencia y Acceso a la Información Pública</p>
+                <p class="md:mr-28 mt-8 mb-8">Estatuto General</p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

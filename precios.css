@@ -1,0 +1,183 @@
+@font-face {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* paleta de colores */
+    --color-primario: #ffffff;
+    --color-segundario: #000000;
+    --color-terseario: #93908b10;
+    --color-cuarto: #140d0285;
+
+
+    /* tipografias */
+    /* --fuente-titulos: "Bevan", serif;
+    --fuente-parrafo: "Amaranth", sans-serif; */
+
+    /* tamaños de letra */
+    --texto-base: 60px;
+    --texto-segunda: 37.08px;
+    --texto-tercera: 22.92px;
+    --texto-cuarto: 14.17px;
+
+    /* peso de la fuente */
+    --peso-regular: 400;
+    --peso-bold: 600;
+    --peso-segunda: 300;
+    --peso-tercera: 50;
+
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+div ul li a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+    transition: color 0.3s ease;
+}
+
+div ul li a:hover {
+    color: #9ae19d !important;
+}
+
+nav div div button {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+div div span {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+main div div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+.titulosplanes {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+main div div div p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+main div div div button {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+div div a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+section div div figure blockquote h3 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+section div div figure blockquote p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+footer div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+footer div div p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-cuarto);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+@media(max-width: 768px) {
+    div div span {
+        font-family: "Berlin";
+        src: url(./fuentes/BRLNSDB.woff);
+        font-size: var(--texto-segunda);
+        line-height: 1;
+        font-weight: var(--peso-regular);
+    }
+
+    main div div div h1 {
+        font-family: "Berlin";
+        src: url(./fuentes/BRLNSDB.woff);
+        font-size: var(--texto-segunda);
+        line-height: 1;
+        font-weight: var(--peso-regular);
+    }
+}

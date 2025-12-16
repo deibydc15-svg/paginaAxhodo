@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axhodo</title>
+    <link rel="stylesheet" href="noticias.css">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header class="pt-[100px]">
+        <!-- navegador -->
+        <nav class="bg-neutral-primary absolute  w-full z-10 top-0 start-0  border-default">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="img/logo.png" class="" alt="">
+                    <!-- <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Axhodo</span> -->
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="login.html"
+                        class="text-[#02153D] bg-[#D8DBE2] hover:bg-brand-strong rounded-[40px] focus:ring-4 focus:ring-[#D8DBE2] shadow-xs font-medium leading-5 text-sm px-[38px] py-[13px] focus:outline-none">Inscríbete</a>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-base md:hidden bg-[#0197af] hover:bg-[#017a8c] focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                d="M5 7h14M5 12h14M5 17h14" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center   hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-2 md:p-0 gap-2 mt-2 font-medium border border-default rounded-base bg-[#0197af] md:bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:">
+                        <li>
+                            <a href="precios.html"
+                                class="block py-1 px-2 text-heading bg-neutral rounded-sm md:bg-transparent md:text-fg-brand  md:p-0"
+                                aria-current="page"> Planes
+                                y Precios</a>
+                        </li>
+                        <li>
+                            <a href="orientacion.html"
+                                class="block py-1 px-2 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Orientación</a>
+                        </li>
+                        <li>
+                            <a href="dondeestudiar.html"
+                                class="block py-1 px-2 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Dónde
+                                Estudiar</a>
+                        </li>
+                        <li>
+                            <a href="noticias.html"
+                                class="block py-1 px-2 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Planes y Precios -->
+        <div class="bg-[#9AE19D] w-full h-[110px]">
+            <div
+                class="text-4xl text-white max-w-screen-xl flex h-full flex-wrap items-center  mx-auto p-4 font-extrabold gap-2 ">
+                <h1>Noticias </h1>
+            </div>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="relative mt-10 mb-10 px-4">
+            <div class="w-full mt-16 md:mt-0 overflow-x-auto snap-x snap-mandatory flex gap-4 p-4
+            scroll-smooth no-scrollbar">
+
+                <!-- TARJETA 1 -->
+                <div
+                    class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                    <div class="h-[51%] p-9">
+                        <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                            Posmedia <br>
+                            Descripción: <br>
+                            Formación posmedia para fortalecer habilidades y mejorar la empleabilidad de jóvenes.<br>
+
+                        </h2>
+                        <p class="text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de Diciembre de 2025</p>
+                    </div>
+                    <img src="img/nota.png" class=" w-full object-cover">
+
+                </div>
+                <!-- TARJETA 2 -->
+                <div
+                    class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#0197AF] shadow-md rounded-xl overflow-hidden">
+                    <div class="h-[51%] p-9">
+                        <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                            Posmedia <br>
+                            Descripción: <br>
+                            Formación posmedia para fortalecer habilidades y mejorar la empleabilidad de jóvenes, en el
+                            marco de Fest Atenea. <br>
+
+                        </h2>
+                        <p class="text-sm text-[#9ae19d]">Martes, 16 de Diciembre - Lunes, 22 de Diciembre de 2025</p>
+                    </div>
+                    <img src="img/nota2.png" class=" w-full object-cover">
+
+                </div>
+                <!-- TARJETA 3 -->
+                <div
+                    class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                    <div class="h-[51%] p-9">
+                        <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                            Posmedia <br>
+                            Descripción: <br>
+                            Acceso a educación superior pública para jóvenes, orientada al fortalecimiento de
+                            habilidades. <br>
+
+                        </h2>
+                        <p class="text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de Diciembre de 2025</p>
+                    </div>
+                    <img src="img/nota3.png" class=" w-full object-cover">
+
+                </div>
+
+                <!-- TARJETA 4 -->
+                <div
+                    class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#0197AF] shadow-md rounded-xl overflow-hidden">
+                    <div class="h-[51%] p-9">
+                        <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                            Posmedia <br>
+                            Descripción: <br>
+                            Convocatoria para el fortalecimiento de talento en posmedia e innovación.<br>
+
+                        </h2>
+                        <p class="text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de Diciembre de 2025</p>
+                    </div>
+                    <img src="img/nota5.png" class=" w-full object-cover">
+
+                </div>
+                <!-- TARJETA 5 -->
+                <div
+                    class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                    <div class="h-[51%] p-9">
+                        <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                            Descripción: <br>
+                            Convocatoria dirigida a víctimas del conflicto para fortalecer habilidades y promover
+                            oportunidades de desarrollo. <br>
+
+                        </h2>
+                        <p class="text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de Diciembre de 2025</p>
+                    </div>
+                    <img src="img/nota4.png" class=" w-full object-cover">
+
+                </div>
+
+
+            </div>
+            <!-- TARJETAS -->
+        </div>
+        <div class="w-full flex flex-wrap justify-end">
+            <!-- FONDO -->
+            <div class="bg-[#9AE19D] h-[106px] w-full md:w-[93%] rounded-l-[12px]">
+
+                <!-- CONTENEDOR LÍMITE -->
+                <div class="max-w-screen-xl mx-auto h-full flex items-center justify-end px-4">
+                    <h1 class="text-4xl text-white font-extrabold text-right">
+                        Noticias destacadas
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+        <div class="max-w-screen-xl mx-auto h-full flex flex-col md:flex-row items-center gap-5    px-4">
+            <div class="flex flex-col mt-9 gap-8 w-full">
+                <div class="h-full flex items-center  justify-end ">
+                    <div class="bg-[#0197AF] w-[820px] flex flex-col md:flex-row rounded-[20px] md:h-[247px]">
+                        <div>
+                            <img class="hidden  md:inline whitespace-nowrap" src="img1/no1.png" alt="">
+                            <img class="block md:hidden whitespace-nowrap" src="img1/nol1mi.png" alt="">
+                        </div>
+                        <div
+                            class="flex flex-col items-center  p-5 text-center gap-8  justify-center w-full md:w-[50%]">
+
+                            <p class="text-white">Los destinatarios de los créditos condonables que se otorgarán en el
+                                marco
+                                de este fondo serán Víctimas del conflicto armado interno, que se encuentren incluidas
+                                en el
+                                Registro Único de Víctimas -RUV- o reconocidas como tal en las Sentencias de Justicia y
+                                Paz,
+                                Restitución de Tierras, Jurisdicción Especial para la Paz o en las de la Corte
+                                Interamericana de Derechos,
+                                <a
+                                    href="https://www.agenciaatenea.gov.co/convocatorias/fondo-para-victimas-del-conflicto-0"><span
+                                        class="text-black">mas información aquí</span></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full flex items-center  justify-end ">
+                    <div class="bg-[#9AE19D] w-[820px] flex flex-col md:flex-row rounded-[20px] md:h-[247px]">
+                        <div>
+                            <img class="hidden  md:inline whitespace-nowrap" src="img1/no3.png" alt="">
+                            <img class="block md:hidden whitespace-nowrap" src="img1/nol3mi.png" alt="">
+                        </div>
+                        <div
+                            class="flex flex-col items-center  p-5 text-center gap-8  justify-center w-full md:w-[50%]">
+
+                            <p class="text-white">El programa está dirigido a jóvenes de hasta 28 años, bachilleres de
+                                colegios de Bogotá y residentes en la ciudad, admitidos para iniciar su formación en
+                                2026-1 en una de las siguientes instituciones oficiales:
+                                <a
+                                    href="https://www.agenciaatenea.gov.co/convocatorias/jovenes-la-e-instituciones-publicas"><span
+                                        class="text-black">mas información aquí</span></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="h-full flex items-center mb-12 justify-end ">
+                    <div class="bg-[#0197AF] w-[820px] flex flex-col md:flex-row rounded-[20px] md:h-[247px]">
+                        <div>
+                            <img class="hidden  md:inline whitespace-nowrap" src="img1/no2.png" alt="">
+                            <img class="block md:hidden whitespace-nowrap" src="img1/nol2mi.png" alt="">
+                        </div>
+                        <div
+                            class="flex flex-col items-center  p-5 text-center gap-8  justify-center w-full md:w-[50%]">
+
+                            <p class="text-white">2600 Campus de Ciencia, Tecnología e Innovación de Bogotá-Región (2600
+                                Campus) es una iniciativa público privada, concebida como un proyecto estratégico para
+                                potenciar la productividad, la competitividad y el desarrollo económico y social de la
+                                ciudad, mediante la integración de la ciencia, la industria y el emprendimiento.
+                                <a href="https://www.agenciaatenea.gov.co/hema/2600-campus"><span class="text-black">mas
+                                        información aquí</span></a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-8">
+                <div class="bg-[#0197AF] w-[400px] rounded-[20px] h-[184px]">
+                    <div class="h-full w-full flex items-center justify-center p-5 text-center">
+                        <p class="text-white text-xs">El SENA abre su cuarta y última oferta de formación virtual del
+                            año, una oportunidad para quienes desean fortalecer sus competencias y avanzar
+                            profesionalmente con programas gratuitos y de calidad.
+                            📅 Inscripciones abiertas hasta el 27 de octubre en betowa.sena.edu.co.
+                            <a
+                                href="https://electricidadelectronicaytelecomu.blogspot.com/2025/10/aprovecha-la-iv-oferta-de-formacion.html"><span
+                                    class="text-black block mt-2">mas
+                                    información aquí</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-[#9AE19D] w-[400px] rounded-[20px] h-[594px]">
+                    <img class="hidden  md:inline whitespace-nowrap w-[400px] rounded-[20px] h-[594px] object-contain"
+                        src="img/cuartaoferta.png" alt="">
+                    <img class="block md:hidden whitespace-nowrap w-[400px] rounded-[20px] h-[594px] object-contain"
+                        src="img/cuartaoferta.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- FONDO FULL -->
+        <section class="w-full bg-[#9AE19D] mt-10 h-[300px] md:h-[575px] ">
+
+            <!-- CAJA INTERNA (VIDEO / IMAGEN) -->
+            <div class="max-w-screen-xl mx-auto px-4">
+                <div class="relative h-[300px] md:h-[575px] rounded-base overflow-hidden">
+                    <iframe class="absolute inset-0 w-full h-full" src="https://www.youtube.com/embed/LkGeJRMtrrw"
+                        title="YouTube video" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer class="flex">
+        <div
+            class=" max-w-screen-2xl flex  items-center  mx-auto  md:items-end flex-col md:flex-row h-[423px] mt-16 w-full">
+            <div class="bg-[#0197AF] text-white md:h-[81%] w-full md:w-[31%] text-center md:text-left">
+                <h1 class="md:ml-28 mt-12">Información de contacto</h1>
+                <p class="md:ml-28 mt-12">Teléfono: (601) 6087809 Ext.: 1170 <br>WhatsApp:(+57) 313322222
+                    <br>axhodo@atención.edu.co
+                </p>
+                <p class="md:ml-28 mt-12 mb-8">Horario de atención <br>Lunes a jueves: 8:00 a.m. a 5 p.m.
+                    <br>Sábado:
+                    8:30
+                    a.m.
+                    a 12:30 p.m.
+                </p>
+            </div>
+            <div
+                class="bg-[#9AE19D] h-full w-full rounded-t-xl md:w-[38%] md:border-b-0 border-white flex flex-col justify-center items-center p-5 gap-4 border-4">
+                <a href="index.html">
+                    <img class="w-[190px]" src="img/logof1.png" alt="">
+                </a>
+                <div class="flex gap-3">
+                    <img src="img/Instagram WC.png" alt="">
+                    <img src="img/YouTube WC.png" alt="">
+                    <img src="img/Facebook WC.png" alt="">
+                    <img src="img/X WC.png" alt="">
+                </div>
+            </div>
+            <div class="bg-[#0197AF] text-white text-center md:text-end md:h-[81%] w-full md:w-[31%]">
+                <h1 class="md:mr-28 mt-12">Información legal</h1>
+                <p class="md:mr-28 mt-8">Términos y Condiciones</p>
+                <p class="md:mr-28 mt-8">Aviso de Privacidad</p>
+                <p class="md:mr-28 mt-8">Transparencia y Acceso a la Información Pública</p>
+                <p class="md:mr-28 mt-8 mb-8">Estatuto General</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

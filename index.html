@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axhodo</title>
+    <link rel="icon" type="image/png" href="img/logo1.png" sizes="32x32">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+    <header class="max-w-screen-xl flex  flex-wrap items-center pt-[185px] mx-auto p-4 ">
+
+        <!-- navegador -->
+        <nav class="bg-neutral-primary absolute  w-full z-50 top-0 start-0  border-default">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                    <img src="img/logof.png" class="w-[167px]" alt="">
+                    <!-- <span class="self-center text-xl text-heading font-semibold whitespace-nowrap">Axhodo</span> -->
+                </a>
+                <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+                    <a href="login.html"
+                        class="text-[#02153D] bg-[#D8DBE2] hover:bg-brand-strong rounded-[40px] focus:ring-4 focus:ring-[#D8DBE2] shadow-xs font-medium leading-5 text-sm px-[38px] py-[13px] focus:outline-none">Inscríbete</a>
+                    <button data-collapse-toggle="navbar-sticky" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-base md:hidden bg-[#0197af] hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+                        aria-controls="navbar-sticky" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" fill="none" viewBox="0 0 24 24">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
+                                d="M5 7h14M5 12h14M5 17h14" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center   hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul
+                        class="flex flex-col p-4 md:p-0  mt-4 font-medium border border-default rounded-base bg-[#0197af] md:bg-transparent md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:">
+                        <li>
+                            <a href="precios.html"
+                                class="block py-2 px-3 text-white bg-neutral rounded-sm md:bg-transparent md:text-fg-brand  md:p-0"
+                                aria-current="page"> Planes
+                                y Precios</a>
+                        </li>
+                        <li>
+                            <a href="orientacion.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Orientación</a>
+                        </li>
+                        <li>
+                            <a href="dondeestudiar.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Dónde
+                                Estudiar</a>
+                        </li>
+                        <li>
+                            <a href="noticias.html"
+                                class="block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Noticias</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- navegador -->
+        <!-- imagenes -->
+        <div class=" relative max-w-screen-xl   flex-wrap   mx-auto p-4  md:h-[743px] w-full flex   ">
+            <div class="portada  absolute top-[-150px] md:left-56  w-full flex flex-wrap  gap-2 ">
+                <img src="img/4.png" alt="" class="portada-img md:h-[579px]">
+                <div class="flex z-10 flex-col   gap-5 pt-[158px] ">
+                    <div class="w-full flex justify-start">
+                        <img src="img/2.png" alt="" class="portada-img ">
+                    </div>
+
+                    <img src="img/3.png" alt="" class="portada-img ">
+
+                </div>
+            </div>
+            <div class="cinco flex flex-col z-10 gap-5 flex-wrap pb-32">
+                <h1 class="mt-8 w-[800px] text-2xl md:text-6xl font-extrabold mb-4">
+                    <span class="text-[#02153D] inline-block">Axhodo:</span>
+                    <span class=" text-white inline-block">tu aplicación para </span>
+                    <br>
+                    <span class="text-[#02153D] inline-block">avanzar</span>
+                    <span class=" text-white inline-block">en la educación </span>
+                    <br>
+                    <span class=" text-[#02153D] inline-block">superior.</span>
+                </h1>
+                <p class="mb-4">Clases cortas, ejercicios tipo examen y <br> progreso real para estudiar inteligente y
+                    <br> subir tu
+                    puntaje.
+                </p>
+                <div class="link flex  gap-4">
+                    <a href="">
+                        <img class="w-[145px] md:w-[203px]" src="img/google.png" alt="">
+                    </a>
+                    <a href="">
+                        <img class="w-[130px] md:w-[203px]" src="img/store.png" alt="">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <!-- imagenes -->
+    </header>
+
+    <main class="flex flex-col ">
+        <!-- carreras mas destacadas  -->
+        <div class="flex flex-wrap flex-col items-center  md:flex-row ">
+            <!-- texto -->
+            <div class=" w-full h-[210px] bg-[#9AE19D] flex-wrap md:w-[35%] ">
+                <div
+                    class="max-w-screen-xl flex md:justify-end lg:justify-center flex-wrap items-center md:pr-47 mx-auto text-[#02153D] pl-28 h-full">
+                    <h1>
+                        Carreras más
+                    </h1>
+                </div>
+            </div>
+            <!-- texto -->
+
+            <div class=" w-full bg-[#0197AF] md:h-[401px] 
+             rounded-none  md:w-[65%] md:rounded-l-[12px]">
+                <div
+                    class="max-w-screen-xl flex flex-col md:flex-row justify-center items-center md:ps-[75px] gap-[75px] md:justify-start p-10 h-full">
+                    <section class=" rounded-[12px] w-[345px] bg-[#d8dbe250] h-[331px]">
+                        <img src="img/carreras1.png" alt="">
+                        <article class="flex gap-5 items-center justify-between p-5 h-[84px] font">
+                            <p>Medicina</p>
+                            <a href="">
+                                <img src="img/flecha.png" alt="">
+                            </a>
+                        </article>
+                    </section>
+                    <section class=" rounded-[12px] w-[345px] bg-[#d8dbe250] h-[331px]">
+                        <img src="img/carreras2.png" alt="">
+                        <article class="flex gap-5 items-center justify-between p-5 h-[84px] ">
+                            <p>Ingenieria de sistemas</p>
+                            <a href="">
+                                <img src="img/flecha.png" alt="">
+                            </a>
+                        </article>
+                    </section>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="flex flex-col gap-[135px]">
+            <div class="flex flex-wrap flex-col items-center  md:flex-row ">
+                <div class=" w-full  bg-[#0197AF] md:h-[401px] 
+             rounded-none  md:w-[35%] md:rounded-r-[12px]">
+                    <div
+                        class="max-w-screen-xl flex justify-center flex-wrap items-center md:pr-[55px] gap-[75px] md:justify-end p-10 h-full">
+                        <section class=" rounded-[12px] w-[345px] bg-[#d8dbe250] h-[331px]">
+                            <img src="img/carreras3.png" alt="">
+                            <article class="flex gap-5 items-center justify-between p-5 h-[84px] font">
+                                <p>Derecho</p>
+                                <a href="">
+                                    <img src="img/flecha.png" alt="">
+                                </a>
+                            </article>
+                        </section>
+                    </div>
+                </div>
+                <div class=" w-full flex-row h-[210px] bg-[#9AE19D] flex-wrap md:w-[65%] ">
+                    <div
+                        class=" flex text-center justify-center md:justify-start flex-wrap items-center md:pl-86 mx-auto text-[#02153D]  h-full pr-40">
+                        <h1>
+                            <span class="text-[#02153D] inline-block">demandadas para el</span>
+                            <span class=" text-white inline-block">2026.</span>
+                        </h1>
+                    </div>
+                    <div class=" flex align-end justify-end mt-[-20px]">
+                        <p>creditos: expoJaveriana 2025*</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <!-- Conoce nuestros planes -->
+            <div class="relative md:pt-36 w-full bg-[#9AE19D] md:h-[978px]   ">
+                <div class="absolute flex flex-wrap top-0 w-full -translate-y-1/2">
+                    <div class="md:w-[50%] w-full bg-white h-10"></div>
+                    <div class="bg-[#0197AF] h-[106px] w-full md:pl-52 md:w-[50%] rounded-l-[12px]">
+                        <h1 class="h-full justify-start items-center flex text-center align-center text-white pr-32">
+                            Conoce nuestros planes
+                        </h1>
+                    </div>
+                </div>
+
+
+                <div
+                    class="text-center text-white h-full justify-center max-w-screen-xl mx-auto gap-x-8 items-stretch grid grid-cols-3 grid-rows-4 md:grid-rows-[230px_240px_250px_100px] ">
+                    <div class="relative col-span-3 row-span-2 col-start-1">
+                        <img class="w-full h-full object-cover" src="img/cambio.png" alt="">
+                        <div class="absolute bottom-4 left-4">
+                            <p class="text-transparent text-xl font-semibold">Texto aquí</p>
+                        </div>
+                        <div class="absolute bottom-4 right-4">
+                            <p class="text-transparent text-xl font-semibold">Texto aquímmm</p>
+                        </div>
+
+                    </div>
+                    <div class="col-start-1 row-start-3">
+                        <h1 class="mb-11 mt-4">Plan <br>gratuito</h1>
+                        <p>Ideal para Quienes ya <br> han culminado sus <br> estudios y prueban la <br> aplicación por
+                            primera <br> vez</p>
+                    </div>
+                    <div class="col-start-2 row-start-3">
+                        <h1 class="mb-11 mt-4">Plan académico</h1>
+                        <p>Para las instituciones <br>interesadas en contratar <br> nuestros servicios</p>
+                    </div>
+                    <div class="col-start-3 row-start-3">
+                        <h1 class="mb-11 mt-4">Plan institucional</h1>
+                        <p>Diseñado para estudiantes <br>que quieren reforzar <br>conocimientos específicos <br> de las
+                            pruebas Saber.
+                        </p>
+                    </div>
+                    <div class="col-start-2 row-start-4">
+                        <button type="button"
+                            class="text-[#02153D] bg-[#D8DBE2] hover:bg-brand-strong rounded-[40px] focus:ring-4 focus:ring-[#D8DBE2] shadow-xs font-medium leading-5 text-sm px-[38px] py-[13px] focus:outline-none mt-8">Ver
+                            más</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ¡Explora los pensum de las universidades!-->
+
+        <!-- titulo -->
+        <div>
+            <div class="max-w-screen-xl mx-auto w-full flex justify-end pl-72">
+                <h1 class="text-[#02153D] mt-16">
+                    Conoce a fondo tu futuro académico.
+                </h1>
+            </div>
+            <div
+                class="bg-[#0197AF] md:h-[106px] flex justify-center text-center w-full md:pr-56 md:w-[93%] rounded-lg mb-16">
+                <h1
+                    class="h2explora max-w-screen-xl mx-auto w-full items-center  md:p-4 text-4xl h-full justify-end  flex md:pr-120 align-center text-white">
+                    ¡Explora los pensum de las universidades!
+                </h1>
+            </div>
+        </div>
+        <!-- titulo -->
+        <div id="default-carousel" class="max-w-screen-xl mx-auto w-full mb-16 relative md:w-[1055px]"
+            data-carousel="slide">
+            <!-- Carousel wrapper -->
+            <div class=" relative h-56 overflow-hidden rounded-base md:h-[504px]">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/framemilitar.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/frameareandina.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="img/framenacional.png"
+                        class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+                <button type="button" class="w-3 h-3 rounded-base" aria-current="true" aria-label="Slide 1"
+                    data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 2"
+                    data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 3"
+                    data-carousel-slide-to="2"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-prev>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m15 19-7-7 7-7" />
+                    </svg>
+                    <span class="sr-only">Previous</span>
+                </span>
+            </button>
+            <button type="button"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                data-carousel-next>
+                <span
+                    class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m9 5 7 7-7 7" />
+                    </svg>
+                    <span class="sr-only">Next</span>
+                </span>
+            </button>
+        </div>
+        <!-- ¡Explora los pensum de las universidades!-->
+        <div class="relative mb-28 max-w-screen-xl mx-auto w-full flex  p-4">
+            <img src="img/noticia.png" class="" alt="">
+
+            <div class="absolute inset-0 flex justify-center items-center">
+                <div class="max-w-screen-xl mx-auto  flex  p-4">
+                    <h1 class="text-white text-3xl font-bold text-center">
+                        Actualidad Educativa
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- Lo Más Destacado -->
+        <div class="relative md:pt-36 w-full bg-[#9AE19D] h-[530px] md:h-[846px]    ">
+            <div class="absolute flex flex-wrap top-0 w-full -translate-y-1/2">
+                <div class="md:w-[60%] w-full bg-white h-10"></div>
+                <div class="bg-[#0197AF] h-[106px] w-full md:pl-16 md:w-[40%] rounded-l-[12px]">
+                    <h1 class="h-full justify-start items-center flex text-center align-center text-white">
+                        Lo Más Destacado
+                    </h1>
+                </div>
+            </div>
+            <div class="relative   px-4">
+                <div class="w-full mt-16 md:mt-0 overflow-x-auto snap-x snap-mandatory flex gap-4 p-4
+            scroll-smooth no-scrollbar">
+
+                    <!-- TARJETA 1 -->
+                    <div
+                        class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                        <div class="h-[51%] p-9">
+                            <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                                Posmedia <br>
+                                Descripción: <br>
+                                Formación posmedia para fortalecer habilidades y mejorar la empleabilidad de
+                                jóvenes.<br>
+
+                            </h2>
+                            <p class="fechanoticias text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de
+                                Diciembre de 2025</p>
+                        </div>
+                        <img src="img/nota.png" class=" w-full object-cover">
+
+                    </div>
+                    <!-- TARJETA 2 -->
+                    <div
+                        class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#0197AF] shadow-md rounded-xl overflow-hidden">
+                        <div class="h-[51%] p-9">
+                            <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                                Posmedia <br>
+                                Descripción: <br>
+                                Formación posmedia para fortalecer habilidades y mejorar la empleabilidad de jóvenes, en
+                                el
+                                marco de Fest Atenea. <br>
+
+                            </h2>
+                            <p class="fechanoticias text-sm text-[#9ae19d]">Martes, 16 de Diciembre - Lunes, 22 de
+                                Diciembre de 2025</p>
+                        </div>
+                        <img src="img/nota2.png" class=" w-full object-cover">
+
+                    </div>
+                    <!-- TARJETA 3 -->
+                    <div
+                        class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                        <div class="h-[51%] p-9">
+                            <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                                Posmedia <br>
+                                Descripción: <br>
+                                Acceso a educación superior pública para jóvenes, orientada al fortalecimiento de
+                                habilidades. <br>
+
+                            </h2>
+                            <p class="fechanoticias text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de
+                                Diciembre de 2025</p>
+                        </div>
+                        <img src="img/nota3.png" class=" w-full object-cover">
+
+                    </div>
+
+                    <!-- TARJETA 4 -->
+                    <div
+                        class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#0197AF] shadow-md rounded-xl overflow-hidden">
+                        <div class="h-[51%] p-9">
+                            <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                                Posmedia <br>
+                                Descripción: <br>
+                                Convocatoria para el fortalecimiento de talento en posmedia e innovación.<br>
+
+                            </h2>
+                            <p class="fechanoticias text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de
+                                Diciembre de 2025</p>
+                        </div>
+                        <img src="img/nota5.png" class=" w-full object-cover">
+
+                    </div>
+                    <!-- TARJETA 5 -->
+                    <div
+                        class="md:min-w-[400px] min-w-[300px] md:h-[504px] snap-center bg-[#02153D] shadow-md rounded-xl overflow-hidden">
+                        <div class="h-[51%] p-9">
+                            <h2 class="font-bold text-lg text-white">Aréa de la convocatoria <br>
+                                Descripción: <br>
+                                Convocatoria dirigida a víctimas del conflicto para fortalecer habilidades y promover
+                                oportunidades de desarrollo. <br>
+
+                            </h2>
+                            <p class="fechanoticias text-sm text-[#9ae19d]">Martes, 2 de Diciembre - Lunes, 15 de
+                                Diciembre de 2025</p>
+                        </div>
+                        <img src="img/nota4.png" class=" w-full object-cover">
+
+                    </div>
+
+
+                </div>
+                <!-- TARJETAS -->
+
+
+                <!-- BOTÓN -->
+                <div class="absolute w-full z-20 max-w-screen-xl
+            md:mt-32 left-1/2 -translate-x-1/2
+            flex justify-center items-center">
+
+                    <button type="button" class="relative z-30 w-[43%] border-4 border-white bg-[#9AE19D] text-white
+           flex justify-between items-center gap-3 px-10 py-4
+           rounded-xl">
+
+                        <!-- TEXTO MOBILE -->
+                        <span class="block md:hidden whitespace-nowrap">
+                            Únete
+                        </span>
+
+                        <!-- TEXTO DESKTOP -->
+                        <span class="hidden md:inline whitespace-nowrap text-start">
+                            Únete y Accede a Más <br>Detalles
+                        </span>
+
+                        <img src="img/flecha.png" class="w-16 h-16" />
+                    </button>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer class="flex">
+        <div
+            class=" max-w-screen-2xl flex  items-center  mx-auto  md:items-end flex-col md:flex-row h-[423px] mt-16 w-full">
+            <div class="bg-[#0197AF] text-white md:h-[81%] w-full md:w-[31%] text-center md:text-left">
+                <h1 class="md:ml-28 mt-12">Información de contacto</h1>
+                <p class="md:ml-28 mt-12">Teléfono: (601) 6087809 Ext.: 1170 <br>WhatsApp:(+57) 313322222
+                    <br>axhodo@atención.edu.co
+                </p>
+                <p class="md:ml-28 mt-12 mb-8">Horario de atención <br>Lunes a jueves: 8:00 a.m. a 5 p.m. <br>Sábado:
+                    8:30
+                    a.m.
+                    a 12:30 p.m.</p>
+            </div>
+            <div
+                class="bg-[#9AE19D] h-full w-full rounded-t-xl md:w-[38%] md:border-b-0 border-white flex flex-col justify-center items-center p-5 gap-4 border-4">
+                <a href="index.html">
+                    <img class="w-[190px]" src="img/logof1.png" alt="">
+                </a>
+                <div class="flex gap-3">
+                    <img src="img/Instagram WC.png" alt="">
+                    <img src="img/YouTube WC.png" alt="">
+                    <img src="img/Facebook WC.png" alt="">
+                    <img src="img/X WC.png" alt="">
+                </div>
+            </div>
+            <div class="bg-[#0197AF] text-white text-center md:text-end md:h-[81%] w-full md:w-[31%]">
+                <h1 class="md:mr-28 mt-12">Información legal</h1>
+                <p class="md:mr-28 mt-8">Términos y Condiciones</p>
+                <p class="md:mr-28 mt-8">Aviso de Privacidad</p>
+                <p class="md:mr-28 mt-8">Transparencia y Acceso a la Información Pública</p>
+                <p class="md:mr-28 mt-8 mb-8">Estatuto General</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

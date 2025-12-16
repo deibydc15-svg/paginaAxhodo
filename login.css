@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* paleta de colores */
+    --color-primario: #ffffff;
+    --color-segundario: #000000;
+    --color-terseario: #93908b10;
+    --color-cuarto: #140d0285;
+
+
+    /* tipografias */
+    --fuente-titulos: "Bevan", serif;
+    --fuente-parrafo: "Amaranth", sans-serif;
+
+    /* tamaños de letra */
+    --texto-base: 60px;
+    --texto-segunda: 37.08px;
+    --texto-tercera: 22.92px;
+    --texto-cuarto: 14.17px;
+
+    /* peso de la fuente */
+    --peso-regular: 400;
+    --peso-segunda: 300;
+    --peso-tercera: 50;
+
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+section div a span {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+.btn-hover-effect {
+    transition: all 0.3s ease;
+}
+
+.btn-hover-effect:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    filter: brightness(1.2);
+    font-weight: bold;
+    cursor: pointer;
+}

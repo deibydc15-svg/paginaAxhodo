@@ -1,0 +1,192 @@
+@font-face {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Stark";
+    src: url(./fuentes/Stark.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    /* paleta de colores */
+    --color-primario: #ffffff;
+    --color-segundario: #000000;
+    --color-terseario: #93908b10;
+    --color-cuarto: #140d0285;
+
+
+    /* tipografias */
+    --fuente-titulos: "Bevan", serif;
+    --fuente-parrafo: "Amaranth", sans-serif;
+
+    /* tamaños de letra */
+    --texto-base: 60px;
+    --texto-segunda: 37.08px;
+    --texto-tercera: 22.92px;
+    --texto-cuarto: 14.17px;
+
+    /* peso de la fuente */
+    --peso-regular: 400;
+    --peso-segunda: 300;
+    --peso-tercera: 50;
+
+
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+div ul li a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+    transition: color 0.3s ease;
+}
+
+div ul li a:hover {
+    color: #9ae19d !important;
+}
+
+div div a {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div span {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+}
+
+div div h1 span {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+}
+
+div p {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+main div div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-base);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+}
+
+div div h2 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+div div div h1 {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+.textonoticias {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+div div div p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+.fechanoticias {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-cuarto);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+.h2explora {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-segunda);
+}
+
+div div div button {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+div button span {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-segunda);
+    line-height: 1;
+    font-weight: var(--peso-regular);
+
+}
+
+footer div div h1 {
+    font-family: "Berlin";
+    src: url(./fuentes/BRLNSDB.woff);
+    font-size: var(--texto-tercera);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
+
+footer div div p {
+    font-family: "Minimalust";
+    src: url(./fuentes/Minimalust\ Small\ Cap.woff);
+    font-size: var(--texto-cuarto);
+    line-height: 1;
+    font-weight: var(--peso-tercera);
+}
