@@ -190,3 +190,271 @@ footer div div p {
     line-height: 1;
     font-weight: var(--peso-tercera);
 }
+
+/* ========================================
+   RESPONSIVE MOBILE STYLES - 425px
+   ======================================== */
+
+@media (max-width: 425px) {
+
+    /* Hide hero images 2 and 3 on mobile */
+    .portada .flex.z-10.flex-col {
+        display: none !important;
+    }
+
+    /* Adjust hero section */
+    header {
+        padding-top: 120px !important;
+    }
+
+    .portada {
+        top: -80px !important;
+        left: 0 !important;
+        justify-content: center;
+    }
+
+    .portada-img {
+        max-width: 100%;
+        height: auto !important;
+    }
+
+    /* Hero text adjustments */
+    .cinco {
+        padding-bottom: 2rem !important;
+        gap: 1rem !important;
+    }
+
+    .cinco h1 {
+        width: 100% !important;
+        font-size: 1.5rem !important;
+        margin-top: 1rem !important;
+        padding: 0 1rem;
+        color: #02153D !important;
+    }
+
+    .cinco h1 span {
+        color: #02153D !important;
+    }
+
+    .cinco p {
+        font-size: 0.875rem !important;
+        padding: 0 1rem;
+        color: #02153D !important;
+    }
+
+    .cinco br {
+        display: none;
+    }
+
+    /* App store buttons */
+    .link {
+        padding: 0 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .link img {
+        width: 140px !important;
+    }
+
+    /* Navigation adjustments */
+    nav .max-w-screen-xl {
+        padding: 0.75rem !important;
+    }
+
+    nav img {
+        width: 120px !important;
+    }
+
+    nav a[href="login.html"] {
+        padding: 0.5rem 1.5rem !important;
+        font-size: 0.75rem !important;
+    }
+
+    /* Carreras section */
+    main div div div h1 {
+        font-size: 60px !important;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .h2explora {
+        font-size: 1.25rem !important;
+        padding: 1rem !important;
+    }
+
+    /* Career cards */
+    section.rounded-\[12px\] {
+        width: 100% !important;
+        max-width: 320px;
+        height: auto !important;
+        min-height: 280px;
+    }
+
+    /* Planes section */
+    .text-center.text-white.h-full {
+        display: flex !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+        gap: 1.5rem !important;
+        align-items: center !important;
+    }
+
+    .text-center.text-white.h-full>div {
+        padding: 1rem !important;
+        width: 100% !important;
+        max-width: 350px !important;
+    }
+
+    /* Scale cambio.png properly with margins */
+    .text-center.text-white.h-full>div.relative.col-span-3 {
+        order: -1 !important;
+        margin: 0 0.5rem !important;
+        max-width: calc(100% - 1rem) !important;
+    }
+
+    .text-center.text-white.h-full>div.relative.col-span-3 img {
+        width: 100% !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+
+    .text-center.text-white.h-full h1 {
+        font-size: 1.5rem !important;
+        margin-bottom: 0.75rem !important;
+    }
+
+    .text-center.text-white.h-full p {
+        font-size: 0.875rem !important;
+    }
+
+    /* Center "demandadas para el 2026" text container */
+    .flex.text-center.justify-center {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+
+    /* Center "demandadas para el 2026" text */
+    .flex.text-center.justify-center h1 {
+        text-align: center !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: var(--texto-segunda) !important;
+    }
+
+    .flex.text-center.justify-center h1 span {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    /* Pensum section title */
+    .max-w-screen-xl.mx-auto.w-full.flex.justify-end {
+        padding: 0 1rem !important;
+        justify-content: center !important;
+    }
+
+    .max-w-screen-xl.mx-auto.w-full.flex.justify-end h1 {
+        font-size: 1.25rem !important;
+        text-align: center;
+    }
+
+    /* Carousel adjustments */
+    #default-carousel {
+        width: 100% !important;
+        padding: 0 1rem;
+    }
+
+    /* News cards */
+    .md\:min-w-\[400px\] {
+        min-width: 280px !important;
+    }
+
+    .md\:min-w-\[400px\] h2 {
+        font-size: 0.875rem !important;
+    }
+
+    .fechanoticias {
+        font-size: 0.625rem !important;
+    }
+
+    /* "Únete" button */
+    button[type="button"].relative.z-30 {
+        width: 80% !important;
+        padding: 0.75rem 1.5rem !important;
+    }
+
+    button[type="button"].relative.z-30 span {
+        font-size: 0.875rem !important;
+    }
+
+    button[type="button"].relative.z-30 img {
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+
+    /* Footer adjustments */
+    footer .max-w-screen-2xl {
+        height: auto !important;
+        margin-top: 2rem !important;
+    }
+
+    footer .bg-\[#0197AF\] h1 {
+        font-size: 1.125rem !important;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    footer .bg-\[#0197AF\] p {
+        font-size: 0.75rem !important;
+        margin-left: 1rem !important;
+        margin-right: 1rem !important;
+    }
+
+    footer .bg-\[#9AE19D\] img {
+        width: 140px !important;
+    }
+
+    footer .flex.gap-3 img {
+        width: 32px !important;
+        height: 32px !important;
+    }
+
+    /* General spacing adjustments */
+    .max-w-screen-xl {
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+
+    /* Adjust section heights for mobile */
+    .bg-\[#9AE19D\].h-\[210px\] {
+        height: auto !important;
+        min-height: 150px;
+        padding: 1.5rem 1rem;
+    }
+
+    .bg-\[#0197AF\].md\:h-\[401px\] {
+        height: auto !important;
+        padding: 2rem 1rem !important;
+    }
+
+    .relative.md\:pt-36.w-full.bg-\[#9AE19D\] {
+        height: auto !important;
+        padding-top: 4rem !important;
+        padding-bottom: 2rem !important;
+    }
+
+    /* Actualidad Educativa section */
+    .relative.mb-28 img {
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .relative.mb-28 h1 {
+        font-size: 1.5rem !important;
+    }
+}
