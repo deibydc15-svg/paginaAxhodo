@@ -97,7 +97,7 @@ div p {
 main div div div h1 {
     font-family: "Berlin";
     src: url(./fuentes/BRLNSDB.woff);
-    font-size: var(--texto-base);
+    font-size: var(--texto-tercera);
     line-height: 1;
     font-weight: var(--peso-regular);
 }
