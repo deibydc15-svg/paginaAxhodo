@@ -189,8 +189,8 @@ footer div div p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     border: none;
     cursor: pointer;
@@ -271,5 +271,8 @@ footer div div p {
     /* Hide overlay on desktop */
     .overlay {
         display: none;
+    }
+    nav a[href="login.html"] {
+        padding: 0.5rem 1.5rem !important;
     }
 }

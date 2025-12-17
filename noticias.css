@@ -103,6 +103,9 @@ div div h2 {
     div div h2 {
         font-size: var(--texto-tercera);
     }
+    nav a[href="login.html"] {
+        padding: 0.5rem 1.5rem !important;
+    }
 }
 
 div div p {

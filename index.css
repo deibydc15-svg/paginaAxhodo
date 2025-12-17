@@ -216,6 +216,7 @@ footer div div p {
     .portada-img {
         max-width: 100%;
         height: auto !important;
+        opacity: 0%;
     }
 
     /* Hero text adjustments */
@@ -268,7 +269,6 @@ footer div div p {
 
     nav a[href="login.html"] {
         padding: 0.5rem 1.5rem !important;
-        font-size: 0.75rem !important;
     }
 
     /* Carreras section */
